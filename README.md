@@ -1,86 +1,82 @@
-Caso de Estudio: CompuWork- Sistema de Gestión de Recursos Humanos
- 
-CompuWork es una empresa dedicada a la gestión de recursos humanos que enfrenta el desafío de administrar eficientemente la información de sus empleados y optimizar los procesos relacionados con la organización de departamentos y el seguimiento del desempeño laboral. Con el crecimiento de la empresa, la dirección ha decidido implementar un sistema de software que facilite la gestión integral de estos procesos, permitiendo mejorar la precisión en la toma de decisiones estratégicas y operativas.
- 
+# CompuWork - Sistema de Gestión de Recursos Humanos
 
-Objetivo del Sistema
-El sistema que se desarrollará para CompuWork tiene como objetivo principal administrar los datos de los empleados, organizar los departamentos de la empresa, y generar reportes detallados de desempeño. Este sistema debe ser flexible, escalable, y fácil de mantener, y debe ser desarrollado utilizando los principios de la Programación Orientada a Objetos (POO) y modelado con UML para asegurar su modularidad y reutilización de componentes.
- 
-Requerimientos Funcionales
-Gestión de Empleados:
+## Descripción del Proyecto
+CompuWork es un innovador sistema de gestión de recursos humanos diseñado para optimizar la administración de empleados y mejorar la eficiencia organizativa. Este software integra herramientas para gestionar información crítica sobre empleados, departamentos y desempeño laboral, facilitando la toma de decisiones estratégicas.
 
-El sistema debe permitir la creación, actualización, y eliminación de registros de empleados.
+---
 
-Debe incluir funcionalidades para asignar empleados a departamentos específicos y cambiar esta asignación según sea necesario.
+## Objetivo del Sistema
+El sistema tiene como objetivo principal:
+- **Administrar datos de empleados**.
+- **Organizar departamentos**.
+- **Generar reportes detallados de desempeño**.
 
-El sistema debe permitir la gestión de diferentes tipos de empleados, como empleados permanentes y temporales, cada uno con sus propios atributos específicos.
+Se desarrolla utilizando principios de **Programación Orientada a Objetos (POO)** y se modela con **UML** para asegurar modularidad y reutilización de componentes.
 
-Organización de Departamentos:
+---
 
-El sistema debe permitir la creación, modificación, y eliminación de departamentos dentro de la empresa.
+## Requerimientos Funcionales
+### 1. Gestión de Empleados
+- Creación, actualización y eliminación de registros.
+- Asignación y modificación de departamentos.
+- Gestión de distintos tipos de empleados (permanentes y temporales).
 
-Debe permitir la asignación de empleados a un departamento y la visualización de los empleados asignados a cada departamento.
+### 2. Organización de Departamentos
+- Creación, modificación y eliminación de departamentos.
+- Visualización de empleados asignados a cada departamento.
 
-Generación de Reportes de Desempeño:
+### 3. Generación de Reportes de Desempeño
+- Reportes detallados utilizando métricas predefinidas.
+- Reportes a nivel individual y departamental.
 
-El sistema debe generar reportes detallados de desempeño para cada empleado, utilizando métricas predefinidas.
+### 4. Interfaz de Usuario
+- Interfaz intuitiva para la gestión de empleados y visualización de reportes.
 
-Debe permitir la generación de reportes tanto a nivel individual como de departamento.
+---
 
-Interfaz de Usuario:
+## Requerimientos No Funcionales
+- **Escalabilidad**: Manejo de un creciente número de empleados y departamentos.
+- **Seguridad**: Protección de información sensible mediante encriptación y medidas de acceso.
+- **Rendimiento**: Generación de reportes en tiempo real.
+- **Mantenibilidad**: Diseño modular para futuras actualizaciones.
+- **Compatibilidad**: Uso en diferentes navegadores y dispositivos.
+- **Disponibilidad**: Accesibilidad 24/7 con mínimo tiempo de inactividad.
 
-Debe proporcionar una interfaz de usuario intuitiva y fácil de usar para la gestión de empleados y departamentos, así como para la visualización de reportes.
+---
 
- 
-Requerimientos No Funcionales
-Escalabilidad:
+## Instrucciones para el Desarrollo
+1. **Implementación de Clases Base**:
+   - Desarrollar las clases `Empleado`, `Departamento` y `ReporteDesempeño` aplicando POO.
+   
+2. **Métodos y Constructores**:
+   - Implementar los métodos necesarios para la creación y manipulación de objetos.
+   
+3. **Gestión de Excepciones**:
+   - Incluir manejo de excepciones en operaciones críticas.
 
-El sistema debe ser escalable para manejar un número creciente de empleados y departamentos sin afectar el rendimiento.
+---
 
-Seguridad:
+## Entrega de la Actividad
+- Continuar en la misma conformación de grupo.
+- Desarrollar la implementación de los diagramas de la actividad 1 en un repositorio de GitHub.
+- Incluir un documento de Word con portada, introducción y conclusión.
+- Solo el líder del grupo debe entregar la actividad a través de la plataforma Canvas.
 
-Debe cumplir con estándares de seguridad para proteger la información sensible de los empleados, incluyendo encriptación de datos y medidas contra accesos no autorizados.
-
-Rendimiento:
-
-El sistema debe ser capaz de generar reportes de desempeño en tiempo real sin demoras perceptibles.
-
-Mantenibilidad:
-
-El sistema debe estar diseñado de manera modular, siguiendo principios de POO, para facilitar futuras actualizaciones y mantenimiento.
-
-Compatibilidad:
-
-Debe ser compatible con diferentes navegadores web y dispositivos, permitiendo su uso tanto en computadoras de escritorio como en dispositivos móviles.
-
-Disponibilidad:
-
-El sistema debe estar disponible 24/7 con un tiempo de inactividad mínimo, asegurando su accesibilidad en todo momento.
-
-
-Instrucciones
-Implementación de Clases Base: Los estudiantes deberán codificar en el lenguaje de programación indicado las clases Empleado, Departamento, y ReporteDesempeño, asegurándose de aplicar principios de POO como encapsulamiento, herencia, y polimorfismo.
-
-Métodos y Constructores: Implementar métodos y constructores necesarios para la creación y manipulación de los objetos del sistema.
-
-Gestión de Excepciones: Incluir el manejo de excepciones en las operaciones críticas, como la asignación de empleados a departamentos y la generación de reportes.
-
- 
-
-Cómo entregar la actividad
-La actividad debe ser entregada en las siguientes condiciones.
-
-Los estudiantes deben continuar con la misma conformación de grupo que fue entregada en la actividad.
-
-Desarrollar la implementación de los diagramas realizados en la actividad 1, esta implementación se debe de realizar mediante un repositorio de Github, se debe de entregar el link del repositorio un documento de Word con normas APA .
-
-Realizar al documento portada con los integrantes del grupo, incluir la introducción y determinar la conclusión de la experiencia en el desarrollo de la actividad y cómo apoya en el mundo laboral.
-
-El grupo debe conformarse y realizar la entrega mediante la plataforma trabajo en la plataforma Canvas, solo el líder del grupo entrega la actividad, el docente del grupo orientará como realizar los grupos en las sesiones sincrónicas.
-
- 
-
-Guarda los documentos con la siguiente nomenclatura:
-
-Ejemplo
+### Nomenclatura para Documentos
+```
 Apellido_Nombre_Actividad2
+```
+
+---
+
+## Criterios de Evaluación
+Se evaluará el desarrollo de conocimientos en esta unidad y la calidad de la implementación del sistema. ¡Asegúrate de seguir las directrices para maximizar tu puntuación!
+
+---
+
+## Contribuciones
+¡Las contribuciones son bienvenidas! Si deseas colaborar o sugerir mejoras, no dudes en abrir un **issue** o **pull request**.
+
+---
+
+¡Gracias por ser parte de este emocionante proyecto en CompuWork! Tu esfuerzo ayudará a mejorar la gestión de recursos humanos en el mundo laboral. 🚀
